@@ -1,15 +1,8 @@
-The people on this project are awesome
-<<<<<<< Updated upstream
+This repository contains the potential code for the Endangered Florida website.
 
-<<<<<<< Updated upstream
-We can do it!
-=======
-<<<<<<< HEAD
-I want chicken, I want liver, meow-mix meow-mix, please deliver.
->>>>>>> Stashed changes
-=======
+Endangered Florida is a multimedia website and documentary project that seeks to
+capture the stories of people and places before Florida changes forever due
+to natural disasters, sea level rise, and climate change.
 
->>>>>>> Stashed changes
-
-holaaaaaaaa
->>>>>>> origin/master
+Project undertaken at the University of Miami department of Cinema and Interactive Media.
+2017
