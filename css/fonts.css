@@ -1,14 +1,15 @@
 /* Stylesheet for Endangered Florida multimedia website
-   Importing Fonts */
+   Importing Fonts
+*/
 
-/* ROBOTO (font-style: normal) */
+/* Roboto (font-style: normal) */
 
 /* Bold */
 
 @font-face {
     font-family: 'Roboto Bold';
-    src: url('../fonts/roboto/Roboto-Bold-webfont.woff') format('woff'),
-         url('../fonts/roboto/Roboto-Bold-webfont.ttf') format('truetype');
+    src: url('../fonts/Roboto/Roboto-Bold-webfont.woff') format('woff'),
+         url('../fonts/Roboto/Roboto-Bold-webfont.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
 }
@@ -17,8 +18,8 @@
 
 @font-face {
     font-family: 'Roboto Medium';
-    src: url('../fonts/roboto/Roboto-Medium-webfont.woff') format('woff'),
-         url('../fonts/roboto/Roboto-Medium-webfont.ttf') format('truetype');
+    src: url('../fonts/Roboto/Roboto-Medium-webfont.woff') format('woff'),
+         url('../fonts/Roboto/Roboto-Medium-webfont.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
 }
@@ -27,8 +28,8 @@
 
 @font-face {
   font-family: 'Roboto';
-  src: url('../fonts/roboto/Roboto-Regular-webfont.woff') format('woff'),
-       url('../fonts/roboto/Roboto-Regular-webfont.ttf') format('truetype');
+  src: url('../fonts/Roboto/Roboto-Regular-webfont.woff') format('woff'),
+       url('../fonts/Roboto/Roboto-Regular-webfont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -37,21 +38,21 @@
 
 @font-face {
     font-family: 'Roboto Light';
-    src: url('../fonts/roboto/Roboto-Light-webfont.woff') format('woff'),
-         url('../fonts/roboto/Roboto-Light-webfont.ttf') format('truetype');
+    src: url('../fonts/Roboto/Roboto-Light-webfont.woff') format('woff'),
+         url('../fonts/Roboto/Roboto-Light-webfont.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
 }
 
 
-/* ROBOTO (font-style: italic) */
+/* Roboto (font-style: italic) */
 
 /* ThinItalic */
 
 @font-face {
     font-family: 'Roboto ThinItalic';
-    src: url('../fonts/roboto/Roboto-ThinItalic-webfont.woff') format('woff'),
-         url('../fonts/roboto/Roboto-ThinItalic-webfont.ttf') format('truetype');
+    src: url('../fonts/Roboto/Roboto-ThinItalic-webfont.woff') format('woff'),
+         url('../fonts/Roboto/Roboto-ThinItalic-webfont.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
 }
@@ -60,21 +61,21 @@
 
 @font-face {
     font-family: 'Roboto LightItalic';
-    src: url('../fonts/roboto/Roboto-LightItalic-webfont.woff') format('woff'),
-         url('../fonts/roboto/Roboto-LightItalic-webfont.ttf') format('truetype');
+    src: url('../fonts/Roboto/Roboto-LightItalic-webfont.woff') format('woff'),
+         url('../fonts/Roboto/Roboto-LightItalic-webfont.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
 }
 
-/* ROBOTO SLAB */
+/* Roboto SLAB */
 
 
 /* Bold */
 
 @font-face {
-  font-family: 'roboto_slabbold';
-  src: url('../fonts/robotoslab/RobotoSlab-Bold-webfont.woff') format('woff'),
-       url('../fonts/robotoslab/RobotoSlab-Bold-webfont.ttf') format('truetype');
+  font-family: 'Roboto_slabbold';
+  src: url('../fonts/Roboto_Slab/RobotoSlab-Bold-webfont.woff') format('woff'),
+       url('../fonts/Roboto_Slab/RobotoSlab-Bold-webfont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -83,9 +84,9 @@
 /* Regular */
 
 @font-face {
-  font-family: 'roboto_slabregular';
-  src: url('../fonts/robotoslab/RobotoSlab-Regular-webfont.woff') format('woff'),
-       url('../fonts/robotoslab/RobotoSlab-Regular-webfont.ttf') format('truetype');
+  font-family: 'Roboto_slabregular';
+  src: url('../fonts/Roboto_Slab/RobotoSlab-Regular-webfont.woff') format('woff'),
+       url('../fonts/Roboto_Slab/RobotoSlab-Regular-webfont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

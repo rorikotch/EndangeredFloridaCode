@@ -9,8 +9,11 @@
   <meta name="author" content="University of Miami">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/mediaqueries.css">
+  <link rel="stylesheet" href="css/demo.css">
 </head>
 
 <body>
@@ -19,28 +22,70 @@
 
     <nav class="top-navigation">
       <ul>
-        <li>Home</li>
-        <li>About</li>
+        <a href="#"><li>Home</li></a>
+        <a href="about.html"><li>About</li></a>
       </ul>
     </nav>
 
     <nav class="stories-navigation">
       <ul>
-        <li>Lighthouse Larry</li>
-        <li>ZooMiami</li>
-        <li>Homeless Grove</li>
+        <a href="lightHouseLarry.html"><li>Lighthouse Larry</li></a>
+        <a href="zooMiami.html"><li>ZooMiami</li></a>
+        <a href="homelessGrove.html"><li>Homeless Grove</li></a>
       </ul>
     </nav>
   </header>
 
-  <section class="square-florida">
+  <section id="squareFlorida">
+  <main>
+    <div class="message">Please view this demo on a desktop to see the grid.</div>
+
+    <div class="grid grid--layout-1 grid--current">
+      <div class="grid__item" data-delay="150" data-direction="ttb"></div>
+      <div class="grid__item" data-delay="300" data-direction="ttb"></div>
+      <div class="grid__item" data-delay="200" data-direction="ttb"></div>
+      <div class="grid__item" data-delay="40" data-direction="ttb"></div>
+      <div class="grid__item" data-delay="70" data-direction="ttb"></div>
+      <div class="grid__item" data-delay="100" data-direction="ttb"></div>
+      <div class="grid__item" data-delay="250" data-direction="ttb"></div>
+      <div class="grid__item" data-delay="350" data-direction="ttb"></div>
+      <div class="grid__item" data-delay="400" data-direction="ttb"></div>
+      <div class="grid__item" data-direction="ttb"></div>
+      <div class="grid__item" data-direction="ttb" data-delay="20"></div>
+      <div class="grid__item" data-direction="ttb" data-delay="500" ></div>
+      <div class="grid__item" data-delay="120" data-direction="ttb"></div>
+      <div class="grid__item grid__item--nav grid__item--nav-prev" data-direction="ttb">
+      </div>
+      <div class="grid__item grid__item--nav grid__item--nav-next" data-direction="ttb">
+      </div>
+      <h3 class="grid__item grid__item--title">Florida</h3>
+      <p class="grid__item grid__item--text">A reet bobbydazzler a right toff Sherlock Queen Elizabeth Shakespeare</p>
+    </div>
+    </main>
   </section>
 
   <footer>
-    <p>Project undertaken at the University of Miami department of Cinema and Interactive Media.</p>
+    <img class="footer logo" src="img/logos/schoolofcomm.png" alt="University of Miami School of Communication"/>
+    <p>Project undertaken at the University of Miami Department of Cinema and Interactive Media.</p>
     <p>2017</p>
   </footer>
 
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script>
+  {
+    const DOM = {};
+    DOM.body = document.body;
+    DOM.gridElems = Array.from(document.querySelectorAll('.grid'));
+
+    imagesLoaded(DOM.body, {background: true} , () => {
+      DOM.body.classList.remove('loading');
+      new Slideshow(DOM.gridElems, {
+        hasTilt: true,
+        tilt: {maxTranslationX: 25, maxTranslationY: 25}
+      });
+    });
+  }
+  </script>
   <script src="js/script.js"></script>
 </body>
 </html>

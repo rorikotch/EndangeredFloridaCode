@@ -17,4 +17,58 @@
    Burnt Orange: rgb(141, 66, 39)
    Light grey: rgb(243, 243, 243) */
 
-/* 
+/* Title Font: 'Roboto_slabbold'
+   Body Font: 'Roboto' */
+
+/****************************************************************/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5em; /* Makes all text double spaced */
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto_slabbold', sans-serif;
+}
+
+.button {
+
+}
+
+a {
+
+}
+
+img {
+  max-width: 100%;
+}
+
+p.testing {
+  font-family: 'Roboto_slabbold', sans-serif;
+  padding: 20px;
+  font-size: 2em;
+}
+
+footer {
+  height: 200px;
+  background-color: rgb(0, 139, 160);
+  padding: 20px;
+}
+
+img.footer {
+  width: 200px;
+}
+
+section#squareFlorida {
+  width: 90%;
+  clear: both;
+  display: block;
+  height: auto;
+  margin-right: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  float: left;
+  padding: 20px;
+}
