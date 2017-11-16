@@ -22,6 +22,10 @@
 
 /****************************************************************/
 
+
+/*****************************************************************
+  Overall Styles
+*****************************************************************/
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.5em; /* Makes all text double spaced */
@@ -71,10 +75,12 @@ section#squareFlorida {
   padding: 0;
 }
 
-header nav ul li {
+header nav.top-navigation ul li {
   float: left;
   padding: 20px;
 }
+/****************************************************************/
+
 
 /*****************************************************************
   Background Video Styles
@@ -98,5 +104,21 @@ div.videowrapper {
   height: auto;
   background: transparent url(4.jpg) no-repeat;
   background-size: cover;
+}
+/*****************************************************************/
+
+
+/*****************************************************************
+  Navigation Styles
+*****************************************************************/
+nav.stories-navigation {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+nav.stories-navigation li {
+  display: inline-block;
+  padding: 20px;
 }
 /*****************************************************************/
