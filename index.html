@@ -38,56 +38,18 @@
     </nav>
   </header>
 
-  <section id="squareFlorida">
-  <main>
-    <div class="message">Please view this demo on a desktop to see the grid.</div>
-
-    <div class="grid grid--layout-1 grid--current">
-      <div class="grid__item" data-delay="150" data-direction="ttb"></div>
-      <div class="grid__item" data-delay="300" data-direction="ttb"></div>
-      <div class="grid__item" data-delay="200" data-direction="ttb"></div>
-      <div class="grid__item" data-delay="40" data-direction="ttb"></div>
-      <div class="grid__item" data-delay="70" data-direction="ttb"></div>
-      <div class="grid__item" data-delay="100" data-direction="ttb"></div>
-      <div class="grid__item" data-delay="250" data-direction="ttb"></div>
-      <div class="grid__item" data-delay="350" data-direction="ttb"></div>
-      <div class="grid__item" data-delay="400" data-direction="ttb"></div>
-      <div class="grid__item" data-direction="ttb"></div>
-      <div class="grid__item" data-direction="ttb" data-delay="20"></div>
-      <div class="grid__item" data-direction="ttb" data-delay="500" ></div>
-      <div class="grid__item" data-delay="120" data-direction="ttb"></div>
-      <div class="grid__item grid__item--nav grid__item--nav-prev" data-direction="ttb">
-      </div>
-      <div class="grid__item grid__item--nav grid__item--nav-next" data-direction="ttb">
-      </div>
-      <h3 class="grid__item grid__item--title">Florida</h3>
-      <p class="grid__item grid__item--text">A reet bobbydazzler a right toff Sherlock Queen Elizabeth Shakespeare</p>
-    </div>
-    </main>
-  </section>
+  <div class="videowrapper">
+  <video autoplay loop muted poster="media/203_0657.mp4" id="video-bg" class="fullscreen-bg__video">
+      <source src="media/videos/windmill.mp4" type="video/mp4">
+    </video>
+  </div>
 
   <footer>
-    <img class="footer logo" src="img/logos/schoolofcomm.png" alt="University of Miami School of Communication"/>
+    <img class="footer logo" src="media/logos/schoolofcomm.png" alt="University of Miami School of Communication"/>
     <p>Project undertaken at the University of Miami Department of Cinema and Interactive Media.</p>
     <p>2017</p>
   </footer>
 
-  <script src="js/imagesloaded.pkgd.min.js"></script>
-  <script>
-  {
-    const DOM = {};
-    DOM.body = document.body;
-    DOM.gridElems = Array.from(document.querySelectorAll('.grid'));
-
-    imagesLoaded(DOM.body, {background: true} , () => {
-      DOM.body.classList.remove('loading');
-      new Slideshow(DOM.gridElems, {
-        hasTilt: true,
-        tilt: {maxTranslationX: 25, maxTranslationY: 25}
-      });
-    });
-  }
-  </script>
   <script src="js/script.js"></script>
 </body>
 </html>
