@@ -54,12 +54,13 @@ p.testing {
 }
 
 footer {
-  height: 200px;
-  background-color: rgb(0, 139, 160);
+  height: 160px;
+  background-color: #191919;
   padding: 20px;
   position: absolute;
-  bottom: 0;
+  bottom: -80px;
   width: calc(100% - 40px);
+  color: white;
 }
 
 img.footer {
@@ -79,19 +80,102 @@ header nav.top-navigation ul li {
   float: left;
   padding: 20px;
 }
+
+#overlay{
+  position:fixed;
+  z-index:99999;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background:rgba(0,0,0,0.9);
+  transition: 1s 0.4s;
+}
+#progress{
+  height:1px;
+  background:#fff;
+  position:absolute;
+  width:0;                /* will be increased by JS */
+  top:50%;
+}
+#progstat{
+  font-size:0.7em;
+  letter-spacing: 3px;
+  position:absolute;
+  top:50%;
+  margin-top:-40px;
+  width:100%;
+  text-align:center;
+  color:#fff;
+}
+
 /****************************************************************/
 
 
 /*****************************************************************
-  Background Video Styles
+  Homepage Background Styles
 *****************************************************************/
+
+#background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 900px;
+  z-index: -100;
+  background:url("../media/horizon.jpg") right bottom no-repeat #DFD2C1;
+  color: white;
+  background-color: black;
+  transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  background-size: 100%;
+  background-position: center;
+}
+
+#background:hover {
+  background-size: 102%;
+}
+
+.tiles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 900px;
+    z-index: -100;
+  }
+
+  .tile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    background-color: grey;
+    z-index: -1;
+  }
+
+  .photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: transform .5s ease-out;
+  }
 
 div.videowrapper {
   margin: 0;
   width: 100%;
   height: 100vh;
-  max-height: 800px;
-  background-color: rgba(67, 66, 68, 0.8);
+  max-height: 900px;
 }
 
 #video-bg {
@@ -111,6 +195,12 @@ div.videowrapper {
 /*****************************************************************
   Navigation Styles
 *****************************************************************/
+nav.top-navigation ul li#about{
+  position: absolute;
+  top: 50px;
+  color: white;
+}
+
 nav.stories-navigation {
   width: 600px;
   margin: auto;
@@ -120,5 +210,32 @@ nav.stories-navigation {
 nav.stories-navigation li {
   display: inline-block;
   padding: 20px;
+  padding-top: 35px;
+  color: white;
+}
+
+div#logo {
+  position: absolute;
+  top: 35px;
+  left: 20px;
+  font-size: 2em;
+  color: white;
+}
+
+div#read-more {
+  margin: auto;
+  margin-top: 20%;
+  height: 60px;
+  width: 160px;
+  border-radius: 5px;
+  border: solid white 0.5px;
+  text-align: center;
+  line-height: 60px;
+  color: white;
+  background-color: transparent;
+}
+
+div#read-more:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 /*****************************************************************/
