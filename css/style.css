@@ -172,6 +172,14 @@ header nav.top-navigation ul li {
   }
 
 div.videowrapper {
+  height: 800px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: -1000;
+}
+
+div.fullpageVideowrapper {
   margin: 0;
   width: 100%;
   height: 100vh;
@@ -179,7 +187,7 @@ div.videowrapper {
 }
 
 #video-bg {
-  position: fixed;
+  position: absolute;
   right: 0;
   top: 0;
   width: auto;
@@ -238,4 +246,44 @@ div#read-more {
 div#read-more:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
+/*****************************************************************/
+
+
+/*****************************************************************
+  Parallax Styles
+*****************************************************************/
+section.inbetween {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+  border: 2px black;
+  z-index: 100;
+}
+
+.parallax-window {
+	min-height: 400px;
+	background: transparent;
+}
+
+/*****************************************************************/
+
+
+/*****************************************************************
+  Scrolling text Styles
+*****************************************************************/
+div.scrollingtext {
+  width: auto;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: black;
+  margin-top: 0px;
+  position: fixed;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  z-index: -1;
+}
+
 /*****************************************************************/

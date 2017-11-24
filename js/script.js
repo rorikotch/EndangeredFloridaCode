@@ -31,3 +31,26 @@
   }
   document.addEventListener('DOMContentLoaded', loadbar, false);
 }());
+
+
+var scrollTop     = $(window).scrollTop(),
+    elementOffset = $('#videowrapper1').offset().top,
+    distance      = (elementOffset - scrollTop);
+console.log(distance);
+$(window).scroll(function() {
+    scrollTop     = $(window).scrollTop(),
+    elementOffset = $('#videowrapper1').offset().top,
+    distance      = (elementOffset - scrollTop);
+
+    if( distance < 150 & distance > -250) {
+        $('#awesome').fadeIn();
+    }
+
+    if( distance < -280 ) {
+      $('#awesome').fadeOut(400);
+    }
+
+    if( distance > 150 ) {
+      $('#awesome').fadeOut(400);
+    }
+});
