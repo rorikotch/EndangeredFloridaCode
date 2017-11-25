@@ -49,13 +49,13 @@ $(document).scroll(function () {
     }*/
     var offset = $(document).scrollTop()
         var opacity = 0;
-        if (offset <= 200) {
+        if  (offset <= 360) {
             opacity = 0;
-        } else if (offset > 200 & offset <= 800) {
-            opacity = (offset - 1) / 800;
+        } else if (offset > 360 & offset <= 900) {
+            opacity = (offset - 1) / 900;
         }
-        else if (offset > 1100 & offset <= 2100){
-            opacity = (1 - offset) / 900;
+        else if (offset > 900 & offset <= 1100){
+            opacity = 1 - (offset / 1100);
             console.log(opacity);
         }
         $('#awesome').css('opacity', opacity);
