@@ -189,9 +189,12 @@ div.fullpageVideowrapper {
 #video-bg {
   position: absolute;
   right: 0;
+  left: 0;
+  bottom: 0;
   top: 0;
   width: auto;
   min-width: 100%;
+  min-height: 100%;
   z-index: -10;
   height: auto;
   background: transparent url(4.jpg) no-repeat;
@@ -257,7 +260,7 @@ section.inbetween {
   height: 400px;
   background-color: grey;
   border: 2px black;
-  z-index: 100;
+  /*z-index: 100;*/
 }
 
 .parallax-window {
@@ -282,8 +285,8 @@ div.scrollingtext {
   top: 200px;
   left: 50%;
   transform: translateX(-50%);
-  display: none;
-  z-index: -1;
+  opacity: 0;
+  /*z-index: -1;*/
 }
 
 /*****************************************************************/
