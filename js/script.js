@@ -3,22 +3,16 @@ $(window).ready(function() {
     // $('#loading').hide();
 });
 
-var fadeInStart=300 // 100px scroll or less will equiv to 1 opacity
-    ,fadeInUntil=550 // 200px scroll or more will equiv to 0 opacity
-    ,fadeOutStart=551
-    ,fadeOutUntil=850
-    ,awesome = $('#awesome');
+var fadeStart=100 // 100px scroll or less will equiv to 1 opacity
+    ,fadeUntil=300;
 
 $(document).scroll(function () {
     var x = $(this).scrollTop();
-    /*if (x > 430 && x < 1000) {
-        $('#awesome').stop().css('opacity',1);
-    }
-    else{
-        $('#awesome').stop().css('opacity',0);
-    }*/
+
     var offset = $(document).scrollTop()
         var opacity = 0;
+        var opacity2 = 1;
+
         if  (offset <= 360) {
             opacity = 0;
         } else if (offset > 360 & offset <= 900) {
@@ -29,4 +23,16 @@ $(document).scroll(function () {
             console.log(opacity);
         }
         $('#awesome').css('opacity', opacity);
-});
+
+
+        var offset2 = $(document).scrollTop()
+          ,opacity2=0;
+
+        if( offset2<=fadeStart ){
+          opacity2=1;
+        } else if( offset2<=fadeUntil ){
+          opacity2=1-offset2/fadeUntil;
+        }
+        $('#stories-navigation').css('opacity',opacity2);
+
+  });

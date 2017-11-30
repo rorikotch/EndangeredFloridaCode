@@ -28,32 +28,40 @@
   <div id="container">
   </div>
 
-  <div id="background">
+  <div class="fullpageVideowrapper">
+    <video autoplay loop muted poster="horizon.jpg" id="video-bg" class="fullscreen-bg__video">
+      <source src="media/videos/20171012_Irma_Beach_STOCK_CB.mp4" type="video/mp4">
+    </video>
   <header>
-    <div id="logo">LOGO</div>
+    <div id="homepagelogo">LOGO</div>
 
-    <nav class="top-navigation">
+    <nav id="stories-navigation">
       <ul>
-        <a href="about.html"><li id="about">About</li></a>
-      </ul>
-    </nav>
-
-    <nav class="stories-navigation">
-      <ul>
-        <a href="#"><li>Community Reaction</li></a>
-        <a href="#"><li>Changing Landscape</li></a>
+        <li><a href="#">Community Reaction</a></li>
+        <li><a href="#">Changing Landscape</a></li>
       </ul>
     </nav>
   </header>
-
-  <div id="read-more">Read More</div>
-
   </div>
 
-  <footer>
+  <section class="sectionSelection">
+    <div class="selection">
+      <div id="communitySquare">
+        <span>Community Reaction</span>
+      </div>
+
+      <div id="landscapeSquare">
+        <span>Changing Landscape</span>
+      </div>
+    </div>
+    <div class="message">
+      <span>This is a summary of the Endangered Florida project. This text will pique the interest of whoever scrolls down to understand what this webpage is, without having to click ont the 'about' button.</span>
+    </div>
+  </section>
+
+  <footer class="homepage">
     <img class="footer logo" src="media/logos/schoolofcomm-edit.png" alt="University of Miami School of Communication"/>
-    <p>Project undertaken at the University of Miami Department of Cinema and Interactive Media.</p>
-    <p>2017</p>
+    <div class="about">About This Project</div>
   </footer>
 
   <script src="js/script.js"></script>
