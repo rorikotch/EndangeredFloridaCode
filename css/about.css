@@ -44,20 +44,7 @@
 display: inline;
 }
 
-  h3{
-    font-family: sans-serif;
-    position: relative;
-    text-align: center;
-  }
 
-  p {
-    position: relative;
-    text-align: center;
-  }
-
-  h2 {
-    font-family: sans-serif;
-  }
 
 .hover-image{
   display: none;
