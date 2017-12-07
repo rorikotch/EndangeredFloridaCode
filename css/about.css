@@ -1,42 +1,43 @@
-/*.containercontainer {
+.containercontainer {
   text-align: center;
   max-width: 1000px;
   margin: auto;
-}*/
+}
 
-/*body {
+h2 {
+  font-family: sans-serif;
+}
+
+body {
   text-align: center;
-}*/
+  background-color: white;
+}
 
-/*.container{
+.container{
       width: 200px;
       height: 300px;
       display: inline-block;
       text-align: center;
       margin: 10px;
-    }*/
+    }
 
-/*.rorikotch {
+.rorikotch {
     width: 200px;
     height: 200px;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
     text-align: center;
-    background-color: black;
-    display: grid;
-    grid-column: 1/3;
-    grid-row: 1;
     border: 1px solid grey;
-  }*/
+ }
 
-/*
+
    img {
     display: inline;
     margin: 0 auto;
     height: 100%;
     width: auto;
-  }*/
+  }
 
 .rorikotch:hover .image-one {
   display: none;
@@ -49,3 +50,12 @@
 .hover-image {
   display: none;
 }
+
+.body-about {
+  text-align: center;
+}
+
+/*header nav.top-navigation ul li {
+  float: left;
+  padding: 20px;
+}*/
