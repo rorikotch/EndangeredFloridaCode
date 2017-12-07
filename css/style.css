@@ -9,7 +9,7 @@
    Aqua: rgb(0, 216, 212)
    Dark Teal: rgb(0, 139, 160)
    Bright Green: rgb(0, 214, 178)
-   Darker Green: rgb(1, 175, 163)
+   Dark Green: rgb(1, 175, 163)
    Midnight Indigo: rgb(11, 23, 77)
    Dark Blue: rgb(11, 80, 133)
    Dark Aqua: rgb(21, 156, 154)
@@ -385,15 +385,17 @@ section.inbetween {
   width: 100%;
   min-height: 400px;
   background-color: #FEFDFB;
-  border: 2px black;
   font-size: 1.2em;
-  line-height: 1.5em;
+  line-height: 1.7em;
+  padding-bottom: 70px;
+  padding-top: 50px;
 }
 
 section.inbetween p {
   padding: 20px;
   width: 100%;
-  max-width: 600px;
+  max-width: 650px;
+  margin: auto;
 }
 
 .parallax-window {
