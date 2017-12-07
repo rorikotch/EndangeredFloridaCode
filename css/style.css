@@ -449,3 +449,84 @@ div.scrollingtext {
 }
 
 /*****************************************************************/
+
+
+
+/*****************************************************************
+  About page styles
+*****************************************************************/
+
+/*.body-about {
+  text-align: center;
+}
+
+.image-one {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  text-align: center;
+  background-color: black;
+  display: grid;
+  grid-column: 1/3;
+  grid-row: 1;
+  border: 1px solid grey;
+}
+
+.hover-image {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  text-align: center;
+  background-color: black;
+  display: grid;
+  grid-column: 1/3;
+  grid-row: 1;
+  border: 1px solid grey;
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+.container{
+  width: 200px;
+  height: 300px;
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+}
+
+.containercontainer {
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.about-image {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+.hover-image{
+  display: none;
+}
+
+.rorikotch:hover .image-one{
+display: none;
+  }
+
+.rorikotch:hover .hover-image{
+display: inline;
+display: inline;
+margin: 0 auto;
+height: 100%;
+width: auto;
+}*/
+
+/*****************************************************************/
