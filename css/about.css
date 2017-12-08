@@ -86,7 +86,8 @@ nav#stories-navigation li {
 }
 
 nav#stories-navigation.subpage {
-position: relative;
+  position: relative;
+  top: 0; 
 }
 
 nav#stories-navigation li a {
