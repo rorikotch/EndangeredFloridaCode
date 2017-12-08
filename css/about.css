@@ -4,8 +4,19 @@
   margin: auto;
 }
 
-h2, h3 {
+h2 {
   font-family: 'Roboto_slabbold', sans-serif;
+  font-size: 24px;
+  padding-bottom: 5px;
+  color: rgb(21, 156, 154);
+}
+
+h3 {
+  font-family: 'Roboto_slabbold', sans-serif;
+}
+
+p {
+  margin-top: 10px;
 }
 
 body {
@@ -30,6 +41,7 @@ body {
     border-radius: 50%;
     text-align: center;
     border: 1px solid grey;
+    margin-bottom: 10px;
  }
 
 
@@ -55,6 +67,7 @@ body {
 .body-about {
   text-align: center;
 }
+
 
 header nav.top-navigation ul li {
   float: left;
@@ -87,7 +100,7 @@ nav#stories-navigation li {
 
 nav#stories-navigation.subpage {
   position: relative;
-  top: 0; 
+  top: 0;
 }
 
 nav#stories-navigation li a {
