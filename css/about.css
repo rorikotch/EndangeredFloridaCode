@@ -11,7 +11,7 @@ h2, h3 {
 body {
   text-align: center;
   background-color: #FEFDFB;
-  font-family: 'Roboto', serif; 
+  font-family: 'Roboto', serif;
 }
 
 .container{
@@ -56,7 +56,62 @@ body {
   text-align: center;
 }
 
-/*header nav.top-navigation ul li {
+header nav.top-navigation ul li {
   float: left;
   padding: 20px;
-}*/
+}
+
+nav#stories-navigation {
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  position: absolute;
+  top: 50px;
+  background: -webkit-linear-gradient(rgba(25, 25, 25, 0.5),  rgba(25, 25, 25, 0) ); /* For Safari 5.1 to 6.0 */
+  background: -moz-linear-gradient(rgba(25, 25, 25, 0.5), rgba(25, 25, 25, 0) ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient( rgba(25, 25, 25, 0.5), rgba(25, 25, 25, 0) ); /* Standard syntax */
+  background-color: rgba(25, 25, 25, 0);
+}
+
+nav#stories-navigation li {
+  display: inline-block;
+  padding: 60px;
+  padding-top: 35px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  letter-spacing: 0.2em;
+  font-family: 'Roboto Light', sans-serif;
+}
+
+nav#stories-navigation.subpage {
+  top: 0;
+}
+
+nav#stories-navigation li a {
+   position: relative;
+   color: #fff;
+  text-decoration: none;
+}
+
+nav#stories-navigation li a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+nav#stories-navigation li a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
