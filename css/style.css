@@ -231,7 +231,8 @@ nav#stories-navigation {
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  position: relative;
+  position: absolute;
+  top: 50px;
   background: -webkit-linear-gradient(rgba(25, 25, 25, 0.5),  rgba(25, 25, 25, 0) ); /* For Safari 5.1 to 6.0 */
   background: -moz-linear-gradient(rgba(25, 25, 25, 0.5), rgba(25, 25, 25, 0) ); /* For Firefox 3.6 to 15 */
   background: linear-gradient( rgba(25, 25, 25, 0.5), rgba(25, 25, 25, 0) ); /* Standard syntax */
