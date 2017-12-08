@@ -5,12 +5,13 @@
 }
 
 h2, h3 {
-  font-family: sans-serif;
+  font-family: 'Roboto_slabbold', sans-serif;
 }
 
 body {
   text-align: center;
   background-color: #FEFDFB;
+  font-family: 'Roboto', serif; 
 }
 
 .container{
