@@ -101,6 +101,8 @@ nav#stories-navigation li {
 nav#stories-navigation.subpage {
   position: relative;
   top: 0;
+  background-color: #222;
+  margin-bottom: 40px; 
 }
 
 nav#stories-navigation li a {
