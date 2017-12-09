@@ -252,6 +252,9 @@ nav#stories-navigation li {
 
 nav#stories-navigation.subpage {
   top: 0;
+  position: relative;
+  background-color: #222;
+  margin-bottom: 40px;
 }
 
 nav#stories-navigation li a {
@@ -292,7 +295,6 @@ div#homepagelogo {
   height: 100px;
   background-color: grey;
   text-align: center;
-  cursor: url('../media/G12_Turtle.ico');
 }
 
 div.logo {
@@ -300,7 +302,6 @@ div.logo {
   top: 35px;
   left: 20px;
   font-size: 2em;
-  color: black;
 }
 
 div#read-more {
