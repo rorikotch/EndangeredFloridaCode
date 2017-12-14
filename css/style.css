@@ -459,7 +459,7 @@ div.scrollingtext {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url("../media/hurricane/hurricane.gif");
+  background-image: url("../media/loading-hurricane.gif");
   background-size: cover;
 }
 
