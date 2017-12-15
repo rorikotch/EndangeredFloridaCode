@@ -431,5 +431,10 @@ div.about:hover {
 }
 
 .footertext {
-  text-align: left; 
+  text-align: left;
+}
+
+
+footer.img {
+  text-align: left;
 }
