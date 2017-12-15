@@ -465,3 +465,35 @@ div.scrollingtext {
 }
 
 /*****************************************************************/
+
+
+
+/*****************************************************************
+Stories page
+*****************************************************************/
+
+.container{
+      display: inline-block;
+      text-align: center;
+      margin: 10px;
+    }
+
+.containercontainer {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 90px;
+}
+
+.storyheadline {
+  color: black;
+}
+
+.storydescription {
+  color: black;
+}
+
+#line-two {
+  margin-top: 50px;
+}
+
+/*****************************************************************/
