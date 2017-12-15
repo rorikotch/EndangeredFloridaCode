@@ -392,3 +392,44 @@ div.message {
   letter-spacing: 0.1em;
   font-family: 'Roboto Light', sans-serif;
 }
+
+footer {
+  min-height: 100px;
+  height: auto;
+  background: -webkit-linear-gradient(rgba(25, 25, 25, 0),  rgba(25, 25, 25, 1) ); /* For Safari 5.1 to 6.0 */
+  background: -moz-linear-gradient(rgba(25, 25, 25, 0), rgba(25, 25, 25, 1) ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient( rgba(25, 25, 25, 0), rgba(25, 25, 25, 1) ); /* Standard syntax */
+  background-color: rgba(25, 25, 25, 0);
+  padding: 20px;
+  width: calc(100% - 40px);
+  color: white;
+}
+footer.homepage {
+  position: absolute;
+  bottom: 0px;
+}
+
+img.footer {
+  width: 200px;
+}
+
+div.about {
+  width: 200px;
+  height: 70px;
+  border: 0.5px solid white;
+  border-radius: 5px;
+  float: right;
+  text-align: center;
+  line-height: 70px;
+  -webkit-transition: background 300ms ease-out;
+  -moz-transition: background 300ms ease-out;
+  transition: background 300ms ease-out;
+}
+
+div.about:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.footertext {
+  text-align: left; 
+}
