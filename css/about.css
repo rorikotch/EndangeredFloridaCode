@@ -234,6 +234,14 @@ header nav.top-navigation ul li {
   padding: 20px;
 }
 
+div.logo {
+  position: absolute;
+  top: 35px;
+  left: 20px;
+  font-size: 2em;
+  color: black;
+}
+
 nav#stories-navigation {
   width: 100%;
   left: 50%;
@@ -249,18 +257,25 @@ nav#stories-navigation {
 
 nav#stories-navigation li {
   display: inline-block;
-  padding: 60px;
-  padding-top: 35px;
+  padding: 20px;
+  margin: 20px;
   color: white;
   text-transform: uppercase;
   font-size: 1.2em;
   letter-spacing: 0.2em;
   font-family: 'Roboto Light', sans-serif;
+  width: 250px;
+}
+nav#stories-navigation li span#stories {
+  text-align: left;
+}
+nav#stories-navigation li span#photos {
+  text-align: right;
 }
 
 nav#stories-navigation.subpage {
-  position: relative;
   top: 0;
+  position: relative;
   background-color: #222;
   margin-bottom: 40px;
 }
@@ -268,7 +283,7 @@ nav#stories-navigation.subpage {
 nav#stories-navigation li a {
    position: relative;
    color: #fff;
-  text-decoration: none;
+   text-decoration: none;
 }
 
 nav#stories-navigation li a:before {
@@ -292,10 +307,88 @@ nav#stories-navigation li a:hover:before {
   transform: scaleX(1);
 }
 
+div#homepagelogo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 2.2em;
+  color: white;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+
 div.logo {
   position: absolute;
-  top: 35px;
+  top: 10px;
   left: 20px;
   font-size: 2em;
+  width: 80px;
+  height: 80px;
+}
+
+div#read-more {
+  margin: auto;
+  margin-top: 20%;
+  height: 60px;
+  width: 160px;
+  border-radius: 5px;
+  border: solid white 0.5px;
+  text-align: center;
+  line-height: 60px;
+  color: white;
+  background-color: transparent;
+}
+
+div#read-more:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+section.sectionSelection {
+  margin-top: 100vh;
+  height: 400px;
+  background-color: #FEFDFB;
+}
+
+section.sectionSelection div.selection {
+  width: 850px;
+  margin: auto;
+  border-radius: 10px;
+}
+div.selection div {
+  height: 80px;
+  width: 300px;
+  padding: 20px;
+  margin: 40px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  font-size: 1.2em;
+  letter-spacing: 0.2em;
+  font-family: 'Roboto Light', sans-serif;
+  text-transform: uppercase;
+  line-height: 80px;
+  display: inline-block;
+  text-align: center;
+  -webkit-transition: background 300ms ease-out;
+  -moz-transition: background 300ms ease-out;
+  transition: background 300ms ease-out;
+}
+
+div.selection div a {
   color: black;
+}
+
+div.selection div:hover {
+  background-color: rgba(245,245,245,0.7);
+}
+
+div.message {
+  text-align: center;
+  width: 600px;
+  margin: auto;
+  margin-top: 20px;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  font-family: 'Roboto Light', sans-serif;
 }
