@@ -8,11 +8,19 @@
   <meta name="description" content="Endangered Florida">
   <meta name="author" content="University of Miami">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/mediaqueries.css">
+  <link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' />
+
+
+  <script type='text/javascript' src='unitegallery/js/jquery-11.0.min.js'></script>
+	<script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script>
+	<script type='text/javascript' src='unitegallery/themes/tiles/ug-theme-tiles.js'></script>
+
 </head>
 
 <body>
@@ -31,52 +39,17 @@
 
   </header>
 
-  <div class="containercontainer">
 
-  <div class="container">
-    <img src="media/final-headshots/mackenzie-1.jpg" alt=""><a href="">
-        <div class="storyheadline"><h2>This is a story title</h2></div>
-      <div class="storydescription"><p>We need a short description of this story here.</p></div>
-  </div>
+  <script type="text/javascript">
 
-  <div class="container">
-    <img src="media/final-headshots/mackenzie-1.jpg" alt=""><a href="">
-      <div class="storyheadline"><h2>This is a story title</h2></div>
-      <div class="storydescription"><p>We need a short description of this story here.</p></div>
-  </div>
+    jQuery(document).ready(function(){
 
-  <div class="container">
-    <img src="media/final-headshots/mackenzie-1.jpg" alt=""><a href="">
-      <div class="storyheadline"><h2>This is a story title</h2></div>
-      <div class="storydescription"><p>We need a short description of this story here.</p></div>
-  </div>
+      jQuery("#gallery").unitegallery({
+        tiles_type:"nested"
+      });
 
-  <div id="line-two">
+    });
 
-  <div class="container">
-    <img src="media/final-headshots/mackenzie-1.jpg" alt=""><a href="">
-      <div class="storyheadline"><h2>This is a story title</h2></div>
-      <div class="storydescription"><p>We need a short description of this story here.</p></div>
-  </div>
-
-  <div class="container">
-    <img src="media/final-headshots/mackenzie-1.jpg" alt=""><a href="">
-      <div class="storyheadline"><h2>This is a story title</h2></div>
-      <div class="storydescription"><p>We need a short description of this story here.</p></div>
-  </div>
-  </div>
-  </div>
-
-
-
-
-
-
-  <footer>
-    <img class="footer logo" src="media/logos/schoolofcomm-edit.png" alt="University of Miami School of Communication"/>
-    <p>Project undertaken at the University of Miami Department of Jouralism & Cinema and Interactive Media.</p>
-    <p>2017</p>
-  </footer>
-  <script src="js/script.js"></script>
+  </script>
 </body>
 </html>
